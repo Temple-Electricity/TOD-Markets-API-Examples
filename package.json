@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "start:javascript_api": "node Javascript/API.js"
+    "start:javascript_api": "node Javascript/API.js",
+    "start:javascript_websocket": "node Javascript/websocket.js"
   },
   "dependencies": {
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "pusher-js": "^8.4.0"
   }
 }
