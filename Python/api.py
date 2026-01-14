@@ -108,7 +108,7 @@ if __name__ == "__main__":
     print("GET /api/company")
     try:
         print(get_tod_markets_endpoint('/api/company'))
-        print(get_tod_markets_endpoint('/api/assets/prices', { markets: 'N Q', periods: 'Q326', bucket: 'EP MD' }))
+        print(get_tod_markets_endpoint('/api/assets/prices', {'markets': 'N Q', 'periods': 'Q326', 'bucket': 'EP MD'}))
     except Exception as exc:  # pragma: no cover - CLI demo
         print('GET error:', exc)
 
